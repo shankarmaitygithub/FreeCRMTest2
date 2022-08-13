@@ -8,26 +8,13 @@
     <classes>
       <class name="com.crm.qa.testcaes.ContactsPageTest">
         <methods>
-          <include name="verifyContactsPageLabel"/>
           <include name="setUp"/>
-          <include name="validateCreateNewContact"/>
+          <include name="validateCreateNewContact" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="selectMultipleContactsTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcaes.ContactsPageTest -->
-      <class name="com.crm.qa.testcaes.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="loginTest"/>
-          <include name="loginPageTitleTest"/>
-          <include name="tearDown"/>
-          <include name="crmLogoImageTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcaes.LoginPageTest -->
       <class name="com.crm.qa.testcaes.HomePageTest">
         <methods>
-          <include name="verifyContactsLinkTest"/>
-          <include name="verifyUserNameTest"/>
           <include name="verifyHomePageTitleTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
