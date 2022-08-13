@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T15:57:10Z" name="Default suite" finished-at="2022-08-13T15:57:53Z" duration-ms="42798">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T15:57:10Z" name="Default test" finished-at="2022-08-13T15:57:53Z" duration-ms="42798">
+      <class name="com.crm.qa.testcaes.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:10Z" name="setUp" finished-at="2022-08-13T21:27:21Z" duration-ms="10933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:21Z" name="loginPageTitleTest" finished-at="2022-08-13T21:27:21Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:21Z" name="tearDown" finished-at="2022-08-13T21:27:21Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:21Z" name="setUp" finished-at="2022-08-13T21:27:33Z" duration-ms="12122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:33Z" name="crmLogoImageTest" finished-at="2022-08-13T21:27:33Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:33Z" name="tearDown" finished-at="2022-08-13T21:27:34Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:34Z" name="setUp" finished-at="2022-08-13T21:27:43Z" duration-ms="9196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:43Z" name="loginTest" finished-at="2022-08-13T21:27:53Z" duration-ms="9844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcaes.LoginPageTest@413f69cc]" started-at="2022-08-13T21:27:53Z" name="tearDown" finished-at="2022-08-13T21:27:53Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcaes.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

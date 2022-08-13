@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free CRM Applicaton Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRM App Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcaes.ContactsPageTest">
+        <methods>
+          <include name="verifyContactsPageLabel"/>
+          <include name="setUp"/>
+          <include name="validateCreateNewContact"/>
+          <include name="tearDown"/>
+          <include name="selectMultipleContactsTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcaes.ContactsPageTest -->
+      <class name="com.crm.qa.testcaes.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="crmLogoImageTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcaes.LoginPageTest -->
+      <class name="com.crm.qa.testcaes.HomePageTest">
+        <methods>
+          <include name="verifyContactsLinkTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcaes.HomePageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test(failed) -->
+</suite> <!-- Failed suite [Free CRM Applicaton Test Automation Suite] -->
